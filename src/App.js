@@ -20,9 +20,9 @@ function App() {
           <p>Front End Developer</p>
           <button onClick={()=>(alert("Terima kasih Banyak"))} className="rounded-md my-2 p-3 bg-blue-300 text-white text-sm font-semibold">Support Me</button>
           <div className='flex flex-row mt-2 mx-auto'>
-            <a href='https://github.com/haidar180202'><img src={githublogo} className="w-15 h-12"/></a>
-            <a href='https://www.linkedin.com/in/muhammad-haidar-shahab-bb9338212/'><img src={linkedinlogo} className="w-12 mr-2"/></a>
-            <a href='https://www.instagram.com/muhammad_haidar_syihab/'><img src={iglogo} className="w-12"/></a>
+            <a href='https://github.com/haidar180202'><img src={githublogo} className="w-15 h-12" alt='github'/></a>
+            <a href='https://www.linkedin.com/in/muhammad-haidar-shahab-bb9338212/'><img src={linkedinlogo} className="w-12 mr-2" alt='LinkedIn'/></a>
+            <a href='https://www.instagram.com/muhammad_haidar_syihab/'><img src={iglogo} className="w-12" alt='ig'/></a>
           </div>
         </div>
         </div>
