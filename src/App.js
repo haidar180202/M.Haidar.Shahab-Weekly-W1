@@ -8,6 +8,10 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Client from './components/Client';
+import Contact from './components/Contact';
+import Blog from './components/Blog';
 
 function App() {
   return (
@@ -16,6 +20,11 @@ function App() {
       <Navbar/>
       <Home/>
       <About/>
+      <Portfolio/>
+      <Client/>
+      <Blog/>
+      <Contact/>
+      <Footer/>
       {/* <header className="App-header">
         <div className='flex flex-row mx-auto my-auto'>
         <img src={pasfoto} className="w-72 ml-2 " alt="logo" />

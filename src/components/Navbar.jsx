@@ -1,6 +1,10 @@
 import React from "react";
+import { useState } from "react";
 
 function Navbar() {
+
+  const [data,setData] = useState("");
+
   return (
     <nav className="absolute top-0 left-0 z-10 flex w-full items-center bg-transparent">
       <div className="container">
@@ -9,7 +13,7 @@ function Navbar() {
             <a href="#home" className="block py-6 text-lg font-bold text-primary">M.HaidarShahab</a>
           </div>
           <div className="flex items-center px-4">
-            <button id="hamburger" name="hamburger" type="button" className="absolute right-4 block lg:hidden">
+            <button id="hamburger" onClick={()=>data == "" ? setData('hamburger-active') : data == "hamburger-active" && setData("") } name="hamburger" type="button" className={`absolute right-4 block ${data} lg:hidden`}>
               <span className="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
               <span className="hamburger-line transition duration-300 ease-in-out"></span>
               <span className="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
@@ -38,7 +42,7 @@ function Navbar() {
                 <li className="group">
                   <a href="#contact" className="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Contact</a>
                 </li>
-                <li className="mt-3 flex items-center pl-8 lg:mt-0">
+                {/* <li className="mt-3 flex items-center pl-8 lg:mt-0">
                   <div className="flex">
                     <span className="mr-2 text-sm text-slate-500">light</span>
                     <input type="checkbox" className="hidden" id="dark-toggle" />
@@ -49,7 +53,7 @@ function Navbar() {
                     </label>
                     <span className="ml-2 text-sm text-slate-500">dark</span>
                   </div>
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>
