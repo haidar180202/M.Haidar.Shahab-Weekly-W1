@@ -1,18 +1,20 @@
-import pasfoto from './pasfoto.png';
-import githublogo from './githublogo.png';
-import iglogo from './iglogo.png';
-import linkedinlogo from './linkedinlogo.jpg';
+import pasfoto from './assets/images/pasfoto.png';
+import githublogo from './assets/images/githublogo.png';
+import iglogo from './assets/images/iglogo.png';
+import linkedinlogo from './assets/images/linkedinlogo.jpg';
 
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Home from './components/Home';
 
 function App() {
   return (
     
-    <div className="App">
-      <Navbar/>
-      <header className="App-header">
+    <>
+      {/* <Navbar/> */}
+      <Home/>
+      {/* <header className="App-header">
         <div className='flex flex-row mx-auto my-auto'>
         <img src={pasfoto} className="w-72 ml-2 " alt="logo" />
         <div className='text-blue-300 lg:ml-44 mt-10 md:m-0 mr-1'>
@@ -28,9 +30,9 @@ function App() {
         </div>
         
         
-      </header>
-      <Footer/>
-    </div>
+      </header> */}
+      {/* <Footer/> */}
+    </>
   );
 }
 
