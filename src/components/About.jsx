@@ -71,7 +71,7 @@ function About() {
 
               {/* Facebook  */}
               <a
-                href="https://twitter.com/sandhikagalih"
+                href="https://www.facebook.com/MuhammadHaidarShahab.MuhammadHaidarShahab"
                 target="_blank"
                 className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
               >
