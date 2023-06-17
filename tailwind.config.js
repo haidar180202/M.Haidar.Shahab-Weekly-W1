@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
+  darkMode: 'class',
   theme: {
     container: {
       center:true,
@@ -11,6 +12,7 @@ module.exports = {
     extend: {
       colors :{
         primary :'#3b82f6',
+        secondary: '#64748b',
         dark : '#0f172a'
       },
       screens: {

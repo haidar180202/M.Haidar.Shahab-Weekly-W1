@@ -14,7 +14,7 @@ const Home = () => {
                 Muhammad Haidar Shahab
               </span>
             </h1>
-            <h2 className="font-medium text-slate-500 text-lg mb-5 lg:text-2xl">
+            <h2 className="font-medium text-slate-500 text-lg mb-5 lg:text-2xl mt-1">
               Software Engineer ||{" "}
               <span className="text-dark">Front End Developer</span>
             </h2>

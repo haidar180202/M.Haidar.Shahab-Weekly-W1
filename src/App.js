@@ -7,13 +7,15 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
+import About from './components/About';
 
 function App() {
   return (
     
     <>
-      {/* <Navbar/> */}
+      <Navbar/>
       <Home/>
+      <About/>
       {/* <header className="App-header">
         <div className='flex flex-row mx-auto my-auto'>
         <img src={pasfoto} className="w-72 ml-2 " alt="logo" />
