@@ -21,7 +21,7 @@ function Navbar() {
 
             <nav
               id="nav-menu"
-              className="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark dark:shadow-slate-500 lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none lg:dark:bg-transparent"
+              className={`absolute right-4 top-full ${data == "" ? "hidden" : ""} w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark dark:shadow-slate-500 lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none lg:dark:bg-transparent`}
             >
               <ul className="block lg:flex">
                 <li className="group">
