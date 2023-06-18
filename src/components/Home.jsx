@@ -3,7 +3,7 @@ import imageProfile from "../assets/images/pasfoto.png";
 
 const Home = () => {
   return (
-    <section id="home" className="pt-36">
+    <section id="home" className="pt-36 dark:bg-dark">
       <div className="container">
         <div className="flex flex-wrap ">
           {/* secttion kanan */}
@@ -33,7 +33,7 @@ const Home = () => {
           <div class="w-full self-center px-4 lg:w-1/2">
             <h1 class="text-base font-semibold text-primary md:text-xl">
               Hello All 👋, my name is
-              <span className="mt-1 block text-4xl font-bold text-dark dark:text-white lg:text-4xl ">
+              <span className="mt-1 block text-4xl font-bold text-dark dark:text-white lg:text-4xl">
                 Muhammad Haidar Shahab
               </span>
             </h1>

@@ -12,12 +12,13 @@ import Portfolio from './components/Portfolio';
 import Client from './components/Client';
 import Contact from './components/Contact';
 import Blog from './components/Blog';
+import { useState } from 'react';
 
 function App() {
+  const [theme,setTheme] = useState("light")
   return (
-    
-    <>
-      <Navbar/>
+    <div className={theme}>
+      <Navbar setTheme={setTheme} theme={theme}/>
       <Home/>
       <About/>
       <Portfolio/>
@@ -43,7 +44,7 @@ function App() {
         
       </header> */}
       {/* <Footer/> */}
-    </>
+    </div>
   );
 }
 
