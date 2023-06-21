@@ -15,21 +15,21 @@ function Footer() {
             <p>Palembang</p>
           </div>
           <div className="mb-12 w-full px-4 md:w-1/3">
-            <h3 className="mb-5 text-xl font-semibold text-white">Kategori Tulisan</h3>
+            <h3 className="mb-5 text-xl font-semibold text-white">Writing category</h3>
             <ul className="text-slate-300">
               <li>
                 <a href="#" className="mb-3 inline-block text-base hover:text-primary">Programming</a>
               </li>
               <li>
-                <a href="#" className="mb-3 inline-block text-base hover:text-primary">Teknologi</a>
+                <a href="#" className="mb-3 inline-block text-base hover:text-primary">Technology</a>
               </li>
               <li>
-                <a href="#" className="mb-3 inline-block text-base hover:text-primary">Gaya Hidup</a>
+                <a href="#" className="mb-3 inline-block text-base hover:text-primary">Lifestyle</a>
               </li>
             </ul>
           </div>
           <div className="mb-12 w-full px-4 md:w-1/3">
-            <h3 className="mb-5 text-xl font-semibold text-white">Tautan</h3>
+            <h3 className="mb-5 text-xl font-semibold text-white">Link</h3>
             <ul className="text-slate-300">
               <li>
                 <a href="#home" className="mb-3 inline-block text-base hover:text-primary">Beranda</a>
