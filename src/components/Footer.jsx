@@ -32,10 +32,10 @@ function Footer() {
             <h3 className="mb-5 text-xl font-semibold text-white">Link</h3>
             <ul className="text-slate-300">
               <li>
-                <a href="#home" className="mb-3 inline-block text-base hover:text-primary">Beranda</a>
+                <a href="#home" className="mb-3 inline-block text-base hover:text-primary">Home</a>
               </li>
               <li>
-                <a href="#about" className="mb-3 inline-block text-base hover:text-primary">Tentang Saya</a>
+                <a href="#about" className="mb-3 inline-block text-base hover:text-primary">About Me</a>
               </li>
               <li>
                 <a href="#portfolio" className="mb-3 inline-block text-base hover:text-primary">Portfolio</a>

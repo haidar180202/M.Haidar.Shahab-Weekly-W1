@@ -25,10 +25,10 @@ function Navbar({theme,setTheme}) {
             >
               <ul className="block lg:flex">
                 <li className="group">
-                  <a href="#home" className="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Beranda</a>
+                  <a href="#home" className="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Home</a>
                 </li>
                 <li className="group">
-                  <a href="#about" className="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Tentang Saya</a>
+                  <a href="#about" className="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">About Me</a>
                 </li>
                 <li className="group">
                   <a href="#portfolio" className="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Portfolio</a>
