@@ -1,6 +1,7 @@
 import React from "react";
 import imageProfile from "../assets/images/pasfoto.png";
 
+
 const Home = () => {
   return (
     <section id="home" className="pt-36 dark:bg-dark">
