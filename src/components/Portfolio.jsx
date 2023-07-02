@@ -29,8 +29,8 @@ function Portfolio() {
         </div>
 
         <div className="flex w-full flex-wrap justify-center px-4 xl:mx-auto xl:w-10/12">
-          <div className="mb-12 p-4 md:w-1/2">
-            <div className="overflow-hidden rounded-md shadow-md">
+          <div className="mb-12 p-4 md:w-1/2 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300">
+            <div className="overflow-hidden rounded-md shadow-md ">
               <a href="https://noteapp-ruby.vercel.app/">
                 <img src={noteapp} alt="E-Commerce" width="w-full" />
               </a>
@@ -45,7 +45,7 @@ function Portfolio() {
             </p>
           </div>
 
-          <div className="mb-12 p-4 md:w-1/2">
+          <div className="mb-12 p-4 md:w-1/2 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300">
             <div className="overflow-hidden rounded-md shadow-md">
               <a href="https://emartreact.vercel.app/">
                 <img src={emart} alt="Landing Page" width="w-full" />
@@ -61,7 +61,7 @@ function Portfolio() {
             </p>
           </div>
 
-          <div className="mb-12 p-4 md:w-1/2">
+          <div className="mb-12 p-4 md:w-1/2 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300">
             <div className="overflow-hidden rounded-md shadow-md">
               <a href="https://tmdb-app-eight.vercel.app/">
                 <img
@@ -79,7 +79,7 @@ function Portfolio() {
               tmdb db API and use access with restful fetch method
             </p>
           </div>
-          <div className="mb-12 p-4 md:w-1/2">
+          <div className="mb-12 p-4 md:w-1/2 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300">
             <div className="overflow-hidden rounded-md shadow-md">
               <a href="https://pokeapp-opal.vercel.app/">
                 <img src={pokeapp} alt="Tribute Page" width="w-full" />
