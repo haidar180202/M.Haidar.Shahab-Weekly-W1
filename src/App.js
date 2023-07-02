@@ -15,7 +15,8 @@ import Blog from './components/Blog';
 import { useState } from 'react';
 
 function App() {
-  const [theme,setTheme] = useState("light")
+  const [theme,setTheme] = useState("light");
+
   return (
     <div className={theme}>
       <Navbar setTheme={setTheme} theme={theme}/>

@@ -16,15 +16,15 @@ const Contact = () => {
         <form>
           <div className="w-full lg:mx-auto lg:w-2/3">
             <div className="mb-8 w-full px-4">
-              <label for="name" className="text-base font-bold text-primary">Nama</label>
+              <label htmlFor="name" className="text-base font-bold text-primary">Nama</label>
               <input type="text" id="name" className="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary" />
             </div>
             <div className="mb-8 w-full px-4">
-              <label for="email" className="text-base font-bold text-primary">Email</label>
+              <label htmlFor="email" className="text-base font-bold text-primary">Email</label>
               <input type="email" id="email" className="w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary" />
             </div>
             <div className="mb-8 w-full px-4">
-              <label for="message" className="text-base font-bold text-primary">Pesan</label>
+              <label htmlFor="message" className="text-base font-bold text-primary">Pesan</label>
               <textarea type="email" id="email" className="h-32 w-full rounded-md bg-slate-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"></textarea>
             </div>
             <div className="w-full px-4">
