@@ -90,7 +90,7 @@ function About() {
               
               {/* LinkedIn */}
               <a
-                href="https://www.linkedin.com/in/muhammad-haidar-shahab-bb9338212/"
+                href="https://www.linkedin.com/in/muhammad-haidar-shahab-504252287/"
                 target="_blank"
                 className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
               >
